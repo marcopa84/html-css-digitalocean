@@ -235,10 +235,29 @@ h2{
   background-color: #F3F5F9;
 }
 .slider_2_box{
-  height: 300px; /* DEBUG:  */
-  width: 80%;
-  margin: auto;
-  background-color: violet;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 50px 25px;
+  width: 50%;
+  background-color: #fff;
+}
+.slider_2_box img{
+  width: 80%
+}
+.slider_box p{
+  margin: 30px 5px;
+  font-size: 20px;
+}
+.slider_box h5{
+  font-size: 20px;
+  font-weight: 700;
+}
+.slider_box h6{
+  font-size: 18px;
+}
+.slider_2_box a{
+  line-height: 2rem;
+  vertical-align: middle;
 }
 /* FOOTER */
 /* classi footer top */
