@@ -4,6 +4,14 @@
   height: 200px;
   background-color: red;
 }
+/* classi generali */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+main section,
+footer section{
+  padding: 40px 0;
+}
 /* HEADER */
 /* classi menu */
 .menu {
@@ -14,6 +22,7 @@
   height: 80px;
   line-height: 80px;
   background-color: #fff;
+  z-index: 3;
 }
 .menu_logo{
   height: 50px;
@@ -21,10 +30,43 @@
 .burger_menu{
   min-width: 100px;
   color: #0069FF;
+  font-size: 30px;
+}
+.menu ul{
+  display: inline;
+}
+.menu a{
+  font-size: 16px;
+  color: rgba(3,27,78,.7);
+  text-transform: capitalize;
+}
+.menu li:hover a{
+  text-decoration: none;
+  color:#6B8CFF;
+  cursor: pointer;
+}
+.menu_dropdown{
+  color: rgba(3,27,78,.7);
+  margin: 0 3px;
+  font-size: small;
+}
+
+.menu_btn{
+  color: #0049FF;
+  border: 2px solid #0049FF;
+  background-color: #fff;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.menu_btn:hover{
+  color: #fff;
+  background-color: #0049FF;
+  margin-left: 5px;
 }
 /* classi jumbo */
 .jumbo{
   height: 500px; /* DEBUG:  */
+  margin-top: 80px;
   padding-top: 80px;
   background-image: url(../img/bg-home.jpg);
 }
