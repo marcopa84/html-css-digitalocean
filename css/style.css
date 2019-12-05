@@ -49,22 +49,31 @@
 }
 /* classi features */
 .features{
-
+  height: 300px; /* DEBUG:  */
 }
 /* classi customers */
 .customers{
+  height: 300px; /* DEBUG:  */
   background-color: #0033AF;
 }
 /* classi slider 2 */
 .slider_2{
   background-color: #F3F5F9;
 }
+.slider_2_box{
+  height: 300px; /* DEBUG:  */
+  width: 80%;
+  margin: auto;
+  background-color: violet;
+}
 /* FOOTER */
 /* classi footer top */
 .footer_top{
+  height: 300px; /* DEBUG:  */
   background-color: #0033AD;
 }
 /* classi footer bottom */
 .footer_bottom{
+  height: 300px; /* DEBUG:  */
   background-color: #031C4E;
 }
