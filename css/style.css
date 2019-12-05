@@ -152,9 +152,23 @@ h2{
   background-image: url(../img/logos/6_splunk.png);
 }
 /* classi services */
-.services{
-
+.services h4{
+  font-size: 25px;
+  font-weight: 700;
 }
+.services ul{
+  margin-bottom: 15px;
+}
+.services li{
+  padding: 15px 10px;
+  border-left: 2px solid #CCCCCC;
+}
+.services p{
+  font-size: 2.1rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 /* classi slider 1 */
 .slider_1{
   background-color: #F3F5F9;
