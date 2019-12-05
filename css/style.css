@@ -12,6 +12,13 @@ main section,
 footer section{
   padding: 40px 0;
 }
+h1{
+  font-size: 65px;
+  font-weight: 700;
+}
+h2{
+  font-weight: 700;
+}
 /* HEADER */
 /* classi menu */
 .menu {
@@ -50,7 +57,6 @@ footer section{
   margin: 0 3px;
   font-size: small;
 }
-
 .menu_btn{
   color: #0049FF;
   border: 2px solid #0049FF;
@@ -65,10 +71,53 @@ footer section{
 }
 /* classi jumbo */
 .jumbo{
-  height: 500px; /* DEBUG:  */
   margin-top: 80px;
-  padding-top: 80px;
+  padding: 80px 0;
   background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+}
+.jumbo_left{
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+.jumbo_left p{
+  font-size: 25px;
+}
+.jumbo_right{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.jumbo_right_link{
+  color:#006AFF;
+  font-size: 30px;
+  font-weight: 700;
+}
+.form_element{
+  margin: 10px 5px;
+}
+.form_button{
+  width: 100%;
+  font-weight: 700;
+}
+.form_button_blue{
+  color: #fff;
+  background-color: #579AFF;
+}
+.form_button_google{
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc
+}
+.form_button_google img{
+  position: absolute;
+  top:50%;
+  left:10px;
+  transform: translateY(-50%);
+  height:80%;
+
 }
 /* MAIN */
 /* classi logos */
