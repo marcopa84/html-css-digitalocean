@@ -41,6 +41,12 @@
 .slider_1{
   background-color: #F3F5F9;
 }
+.slider_1_box{
+  height: 300px; /* DEBUG:  */
+  width: 80%;
+  margin: auto;
+  background-color: lime;
+}
 /* classi features */
 .features{
 
