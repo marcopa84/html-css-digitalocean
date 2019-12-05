@@ -54,8 +54,7 @@ h2{
 }
 .menu_dropdown{
   color: rgba(3,27,78,.7);
-  margin: 0 3px;
-  font-size: small;
+  margin: 0 5px
 }
 .menu_btn{
   color: #0049FF;
@@ -123,6 +122,34 @@ h2{
 /* classi logos */
 .logos{
   background-color: #F3F5F9;
+}
+.logos h3{
+  text-transform: uppercase;
+}
+.logos_boxes{
+  height: 80px;
+  margin: 30px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logos #logo1{
+  background-image: url(../img/logos/1_docker.png);
+}
+.logos #logo2{
+  background-image: url(../img/logos/2_gitlab.png);
+}
+.logos #logo3{
+  background-image: url(../img/logos/3_slack.png);
+}
+.logos #logo4{
+  background-image: url(../img/logos/4_hashicorp.png);
+}
+.logos #logo5{
+  background-image: url(../img/logos/5_wework.png);
+}
+.logos #logo6{
+  background-image: url(../img/logos/6_splunk.png);
 }
 /* classi services */
 .services{
