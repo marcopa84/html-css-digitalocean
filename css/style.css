@@ -239,9 +239,48 @@ h2{
 }
 /* classi customers */
 .customers{
-  height: 300px; /* DEBUG:  */
   background-color: #0033AF;
 }
+.customers h2{
+  color:#fff;
+}
+.customers_row{
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+.customers_row_code{
+  position: absolute;
+  top:50%;
+  left: 5%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+.customers_row_regions{
+  position: absolute;
+  top:50%;
+  left: 30%;
+  transform: translateY(-50%);
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #A4B6E2;
+}
+.customers_row_link{
+  position: absolute;
+  top:50%;
+  right:5%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  }
+  .customers_row a:hover{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
 /* classi slider 2 */
 .slider_2{
   background-color: #F3F5F9;
@@ -303,6 +342,11 @@ h2{
   line-height: 25px;
   text-decoration: none;
   color: #7A859D;
+}
+.footer_bottom a:hover{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 .footer_bottom p{
   margin: 15px 0;
