@@ -173,12 +173,54 @@ h2{
 .slider_1{
   background-color: #F3F5F9;
 }
-.slider_1_box{
-  height: 300px; /* DEBUG:  */
+.slider_1 p{
+  font-size: 2.1rem;
+  margin: 50px 0;
+}
+.slider_box{
+  position: relative;
   width: 80%;
   margin: auto;
-  background-color: lime;
 }
+.chevron_l{
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  top:50%;
+  left:-10%;
+  transform: translateY(-50%);
+}
+.chevron_r{
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  top:50%;
+  right:-10%;
+  transform: translateY(-50%);
+}
+.slider_box img{
+  width: 80%;
+}
+.slider_1 a{
+  display: inline-block;
+  margin: 15px;
+}
+/* ---->dots */
+.dots_line{
+  width: 100%;
+  margin: 5px 0;
+}
+.dots{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #006AFF;
+  border-radius: 50%;
+}
+.dots:first-child{
+  background-color: #006AFF;
+}
+/* <---- dots */
 /* classi features */
 .features{
   height: 300px; /* DEBUG:  */
