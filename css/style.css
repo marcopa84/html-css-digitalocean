@@ -70,10 +70,11 @@
 /* classi footer top */
 .footer_top{
   height: 300px; /* DEBUG:  */
+  color: #fff;
   background-color: #0033AD;
 }
 /* classi footer bottom */
 .footer_bottom{
-  height: 300px; /* DEBUG:  */
+  color: #fff;
   background-color: #031C4E;
 }
