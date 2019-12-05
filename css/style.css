@@ -162,6 +162,7 @@ h2{
 .services li{
   padding: 15px 10px;
   border-left: 2px solid #CCCCCC;
+  font-size: 20px;
 }
 .services p{
   font-size: 2.1rem;
@@ -222,8 +223,19 @@ h2{
 }
 /* <---- dots */
 /* classi features */
-.features{
-  height: 300px; /* DEBUG:  */
+.features h2{
+  margin: 30px 0;
+}
+.features img{
+  margin: 15px 0;
+}
+.features h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.features p{
+  font-size: 1.8rem;
+  margin: 30px 0;
 }
 /* classi customers */
 .customers{
