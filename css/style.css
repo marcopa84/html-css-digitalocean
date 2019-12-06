@@ -67,6 +67,7 @@ h2{
   color: #fff;
   background-color: #0049FF;
   margin-left: 5px;
+  cursor: pointer;
 }
 /* classi jumbo */
 .jumbo{
@@ -110,6 +111,16 @@ h2{
   background-color: #fff;
   border: 1px solid #ccc
 }
+.form_button_blue:hover{
+  color: #579AFF;
+  background-color: #fff;
+  border: 1px solid #ccc
+  cursor: pointer;
+}
+.form_button_google:hover{
+  color: #579AFF;
+  cursor: pointer;
+}
 .form_button_google img{
   position: absolute;
   top:50%;
@@ -127,29 +138,16 @@ h2{
   text-transform: uppercase;
 }
 .logos_boxes{
-  height: 80px;
-  margin: 30px 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 130px;
+  line-height: 130px;
+  vertical-align: middle;
 }
-.logos #logo1{
-  background-image: url(../img/logos/1_docker.png);
+.logos img{
+  width: 120px;
 }
-.logos #logo2{
-  background-image: url(../img/logos/2_gitlab.png);
-}
-.logos #logo3{
-  background-image: url(../img/logos/3_slack.png);
-}
-.logos #logo4{
-  background-image: url(../img/logos/4_hashicorp.png);
-}
-.logos #logo5{
-  background-image: url(../img/logos/5_wework.png);
-}
-.logos #logo6{
-  background-image: url(../img/logos/6_splunk.png);
+.logos_boxes:hover img{
+  width: 80px;
+  cursor: pointer;
 }
 /* classi services */
 .services h4{
@@ -163,6 +161,10 @@ h2{
   padding: 15px 10px;
   border-left: 2px solid #CCCCCC;
   font-size: 20px;
+}
+.services li:hover{
+  border-left: 4px solid #318CFD;
+  cursor: pointer;
 }
 .services p{
   font-size: 2.1rem;
@@ -199,6 +201,11 @@ h2{
   right:-10%;
   transform: translateY(-50%);
 }
+.chevron_l:hover,
+.chevron_r:hover{
+  color: #318CFD;
+  cursor: pointer;
+}
 .slider_box img{
   width: 80%;
 }
@@ -218,8 +225,13 @@ h2{
   border: 1px solid #006AFF;
   border-radius: 50%;
 }
-.dots:first-child{
+.dots_line .active{
   background-color: #006AFF;
+}
+.dots:hover {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
 }
 /* <---- dots */
 /* classi features */
@@ -239,7 +251,8 @@ h2{
 }
 /* classi customers */
 .customers{
-  background-color: #0033AF;
+  background: rgb(0,66,192);
+  background: linear-gradient(180deg, rgba(0,66,192,1) 0%, rgba(0,31,154,1) 56%);
 }
 .customers h2{
   color:#fff;
@@ -276,11 +289,14 @@ h2{
   transform: translateY(-50%);
   font-weight: 700;
   }
-  .customers_row a:hover{
-    cursor: pointer;
-    color: #fff;
-    text-decoration: none;
-  }
+.customers_row a{
+  color: #00D7D2;
+}
+.customers_row a:hover{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
 /* classi slider 2 */
 .slider_2{
   background-color: #F3F5F9;
@@ -326,6 +342,11 @@ h2{
   font-size: 20px;
   font-weight: 700;
 }
+.footer_btn:hover{
+  color:#fff;
+  background-color: #0033AD;
+  border: 1px solid #fff;
+}
 /* classi footer bottom */
 .footer_bottom{
   color: #7A859D;
@@ -362,4 +383,9 @@ h2{
 }
 .footer_bottom .icons i{
   margin-left: 5px;
+}
+.footer_bottom .icons i:hover{
+  color:#fff;
+  font-size: 25px;
+  cursor: pointer;
 }
