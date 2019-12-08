@@ -389,3 +389,96 @@ h2{
   font-size: 25px;
   cursor: pointer;
 }
+/* regole del div helper */
+.helper{
+  position: fixed;
+  bottom: 90px;
+  right: 60px;
+  height: 80px;
+  width: 80px;
+  background-color: #005EFF;
+  border-radius: 5px;
+}
+.helper img{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+
+}
+.helper .notify{
+  position: absolute;
+  top:-15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: red;
+  border: 5px solid #fff;
+  border-radius: 50px;
+}
+.helper_dialog{
+  position: absolute;
+  top:95px;
+  right: 0;
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #005EFF;
+  border-radius: 5px;
+}
+.helper_dialog:before {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: -21px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid #005EFF;
+}
+
+.helper_dialog:after {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: -19px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+.helper:hover{
+  cursor: pointer;
+}
+@media screen and (max-width:992px) {
+  .helper{
+    bottom: 15px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+  }
+
+}
+/* .helper_dialog:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 65%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #005EFF;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-top: -20px;
+} */
